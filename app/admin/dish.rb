@@ -1,4 +1,5 @@
 ActiveAdmin.register Dish do
+  permit_params :name, :price
 
   
   # See permitted parameters documentation:
