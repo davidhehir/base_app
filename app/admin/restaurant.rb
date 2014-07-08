@@ -1,4 +1,5 @@
 ActiveAdmin.register Restaurant do
+  permit_params :phone_number
 
   
   # See permitted parameters documentation:
