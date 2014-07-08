@@ -1,4 +1,5 @@
 ActiveAdmin.register Order do
+  permit_params :phone_number, :delivered
 
   
   # See permitted parameters documentation:
